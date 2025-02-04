@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  color: black;
+}
+
+/*#drawing-board {*/
+/*  width: 50px;*/
+/*  height: 50px;*/
+/*  border: 3px solid cornflowerblue;*/
+/*  padding-right: 0;*/
+/*  margin-left: 20px;*/
+/*  top: 50px;*/
+/*  display: flex;*/
+/*}*/
+
+h1 {
+  background:#7F7FD5;
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  text-align:center;
+}
+.canvas_wrapper{
+  width: min-content;
+  margin: 0 auto;
+}
+.button_wrapper{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.canvas_wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+button{
+  background-color: deeppink;
+  border:3px solid cornflowerblue;
+  border-radius: 10px;
+  color:white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+input{
+ float: right
+}
